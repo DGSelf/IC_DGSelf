@@ -1,0 +1,54 @@
+body {
+  margin: 0 !important;
+  height: 100%;
+  background-color: #10131C;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+#banner {
+  width: 50vw;
+  max-width: 800px;
+  display: block;
+  margin: auto;
+}
+
+#unityContainer {
+  margin: auto;
+  position: relative;
+  left: 111px;
+  width: 100%;
+  height: 70vh;
+  max-width: 1280px;
+  max-height: 720px;
+}
+
+#progressContainer {
+  position: absolute;
+  top: 50%;
+  transform: translate(-4%, -44%);
+  margin: auto;
+  width: 100%;
+  max-width: 1280px;
+  max-height: 720px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#progressIndicator {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  user-select: none;
+  color: white;
+  font-size: 2.0rem;
+}
